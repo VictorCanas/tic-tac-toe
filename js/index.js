@@ -30,7 +30,7 @@
         board[1] = new Array(3);
         board[2] = new Array(3);
         
-        // bind events
+        // for loop - bind events
         for(var i = 0; i < boxes.length; i++) {
             boxes[i].addEventListener('click', clickHandler, false);
         }
